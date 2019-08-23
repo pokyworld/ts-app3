@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    width: calc(100vw - 2rem);
+    justify-content: space-between;
+    background: white;
+    border-bottom: 1px solid #000;
+    padding: 0 1rem;
+    position: sticky;
+    font-size: 1.5em;
+    top: 0;
+    z-index: 99;
+}
+
+.nav-link {
+    display: flex;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 20px 10px;
+    align-items: center;
+    color: #333;
+}
+
+@media (max-width: 420px) {
+  .nav-link { font-size: 0.8em; }
+}
